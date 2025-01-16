@@ -1,0 +1,14 @@
+local:
+   host : "your-hostname"
+   user : "your-username"
+   password : "your-password"
+
+dev:
+   host : "your-hostname"
+   user : "your-username"
+   password : "your-password"
+
+stage:
+  host : "your-hostname"
+  user : "your-username"
+  password : "your-password"
