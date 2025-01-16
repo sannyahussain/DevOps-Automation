@@ -7,14 +7,17 @@ This repository contains a collection of DevOps automation scripts and configura
 - **SonarQube Integration**: Setup files for integrating SonarQube with CI/CD pipelines for code quality analysis.
 - **Server Automation**: Scripts for managing cloud-based infrastructure and servers, including starting, stopping, and managing Azure resources.
 
-The goal of this repo is to provide reusable automation templates for efficient DevOps operations.
+Database Backups:
+- Go to the folder python-scripts and edit the file db_backups.py save and run where you want to keep the backups.
 
-**Database Backups: **
+Usage:
 This script automates the process of backing up two PostgreSQL databases. It uses pg_dump to create backups and saves them as .sql files with a timestamp in a specified directory. The script uses environment variables to securely handle the database password. 
 
-Go to the folder python-scripts and edit the file db_backups.py save and run where you want to keep the backups.
+Database Dump and Restore Script:
+- Nevigate to the python-scripts folder and edit the db_backup&restore.py file , change the variable names before runing the script.
 
-## Usage
+Usage:
 
-Clone the repository and navigate to the respective folders for individual setups. Each section contains detailed instructions on configuration and usage.
+This script performs both database dumping and restoration. It first takes a backup of a specified PostgreSQL database by connecting to a given server, then stores the dump in a specified file. The script also allows the creation of a new empty database on a target server and restores the dumped data into it. Configuration details are read from a YAML file for flexible server management.
+
 
