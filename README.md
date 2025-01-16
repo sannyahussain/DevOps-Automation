@@ -11,6 +11,7 @@ The goal of this repo is to provide reusable automation templates for efficient 
 
 **Database Backups: **
 This script automates the process of backing up two PostgreSQL databases. It uses pg_dump to create backups and saves them as .sql files with a timestamp in a specified directory. The script uses environment variables to securely handle the database password. 
+
 Go to the folder python-scripts and edit the file db_backups.py save and run where you want to keep the backups.
 
 ## Usage
