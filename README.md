@@ -47,12 +47,12 @@ Ensure your environment is configured for Azure authentication using Managed Ide
 
 Update the following placeholders in the script:
 
-client_id = "<client-id>"
-subscription_id= "<subscription-id>"
-account_url = "<account-url>"
-container_name = "<container-name>"
+- client_id = "<client-id>"
+- subscription_id= "<subscription-id>"
+- account_url = "<account-url>"
+- container_name = "<container-name>"
 
-# Database Configuration
+- Database Configuration
 db_config = {
     "db" : "database-name", 
     "db_host" : "hostname",
